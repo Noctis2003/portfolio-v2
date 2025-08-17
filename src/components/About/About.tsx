@@ -12,109 +12,109 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/kube.svg";
 import vueIcon from "../../assets/next.svg";
 import boostrapIcon from "../../assets/linux.svg";
-import ScrollAnimation from "react-animate-on-scroll";
+import { Fade } from "react-awesome-reveal";
 
 export function About() {
   return (
     <Container id="about">
       <div className="about-text">
-        <ScrollAnimation animateIn="fadeInLeft">
+        <Fade direction="left" triggerOnce>
           <h2>About me</h2>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
+        </Fade>
+        <Fade direction="left" triggerOnce delay={100}>
           <p>
             Hi there! I'm Manjot, skilled in Fullstack Development,Devops and Backend Development.
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
+        </Fade>
+        <Fade direction="left" triggerOnce delay={200} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
            I build Fullstack applications using Nextjs, Nestjs, Electron, Docker, Azure,
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
+        </Fade>
+        <Fade direction="left" triggerOnce delay={300}>
           <p>
            I am skilled in rapid prototyping and deployment.
           </p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={400}>
+        </Fade>
+        <Fade direction="left" triggerOnce delay={400}>
           <div className="education">
             <h3>Education:</h3>
             <h4>Bachelor of Technology (B.Tech)</h4>
             <p>NIT Jalandhar</p>
          
           </div>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={550}>
+        </Fade>
+        <Fade direction="left" triggerOnce delay={550}>
           <div className="experience">
              <h3>Experience:</h3><h4>Founder</h4>
             <p>Triberary.com</p>
             <p>NIT J</p>
           </div>
-        </ScrollAnimation>
+        </Fade>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
+        <Fade direction="left" triggerOnce delay={400}>
           <h3>Here are my main skills:</h3>
-        </ScrollAnimation>
+        </Fade>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+            <Fade direction="up" triggerOnce delay={100}>
               <img src={python} alt="python" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
+            <Fade direction="up" triggerOnce delay={110}>
               <img src={java} alt="java" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
+            <Fade direction="up" triggerOnce delay={120}>
               <img src={jsIcon} alt="JavaScript" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+            <Fade direction="up" triggerOnce delay={130}>
               <img src={reactIcon} alt="React" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
+            <Fade direction="up" triggerOnce delay={140}>
               <img src={typescriptIcon} alt="Typescript" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
+            <Fade direction="up" triggerOnce delay={150}>
               <img src={vueIcon} alt="Vue" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+            <Fade direction="up" triggerOnce delay={160}>
               <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
+            <Fade direction="up" triggerOnce delay={170}>
               <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
+            <Fade direction="up" triggerOnce delay={180}>
               <img src={htmlIcon} alt="Html" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+            <Fade direction="up" triggerOnce delay={190}>
               <img src={cssIcon} alt="Css" />
-            </ScrollAnimation>
+            </Fade>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.20 * 1000}>
+            <Fade direction="up" triggerOnce delay={200}>
               <img src={boostrapIcon} alt="bootstrap" />
-            </ScrollAnimation>
+            </Fade>
           </div>
         </div>
       </div>
       <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.21 * 1000}>
+        <Fade direction="right" triggerOnce delay={210}>
    <img
   src={VinayakSingh}
   alt="Manjot"
@@ -124,7 +124,7 @@ export function About() {
    
   }}
 />
-        </ScrollAnimation>
+        </Fade>
       </div>
     </Container>
   )

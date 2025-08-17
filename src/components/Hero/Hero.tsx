@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { Container } from "./styles"
-import ScrollAnimation from "react-animate-on-scroll"
+import { Fade } from "react-awesome-reveal"
 import Illustration from "../../assets/rocket-svgrepo-com.svg"
 
 import { NavHashLink } from "react-router-hash-link"
@@ -14,24 +14,24 @@ export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <ScrollAnimation animateIn="fadeInUp">
+        <Fade direction="up" triggerOnce>
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={200}>
           <h1>Manjot Singh</h1>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={400}>
           <h3>Software Engineer</h3>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={600}>
           <p className="small-resume">To infinity and beyond...</p>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={800}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
-        </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/manjot-singh-1571b325b/"
         target="_blank"
@@ -60,13 +60,13 @@ export function Hero() {
         >
           <img src={telegram} alt="telegram" />
         </a></div>
-        </ScrollAnimation>
+        </Fade>
       </div>
       <div className="hero-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
+        <Fade direction="right" triggerOnce delay={1000}>
           <img src={Illustration} alt="Ilustração"
             style={{ transform: "rotate(270deg)" }} />
-        </ScrollAnimation>
+        </Fade>
       </div>
     </Container>
   )

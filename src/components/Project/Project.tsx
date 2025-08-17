@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github-color-svgrepo-com.svg"
 // import DownloadApp from '../../assets/download.webp'
 import externalLink from "../../assets/external-link.svg"
-import ScrollAnimation from "react-animate-on-scroll";
+import { Fade } from "react-awesome-reveal";
 
 
 export function Project() {
@@ -11,7 +11,7 @@ export function Project() {
       <h2>My Ventures</h2>
       <div className="projects">
 
-          <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1.5}>
+          <Fade duration={1500} triggerOnce>
 
           <div className="project">
             <header>
@@ -38,9 +38,9 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </Fade>
 
-        <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1.5}>
+        <Fade duration={1500} triggerOnce>
           <div className="project">
             <header>
               <div className="project-links">
@@ -68,10 +68,10 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </Fade>
 
     
-    <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1.5}>
+    <Fade duration={1500} triggerOnce>
           <div className="project">
             <header>
               <div className="project-links">
@@ -99,9 +99,9 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </Fade>
 
-            <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" duration={1.5}>
+            <Fade duration={1500} triggerOnce>
           <div className="project">
             <header>
               <div className="project-links">
@@ -128,7 +128,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </Fade>
         
 
 
