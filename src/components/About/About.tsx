@@ -28,7 +28,7 @@ export function About() {
         </Fade>
         <Fade direction="left"  delay={200} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-           I build Fullstack applications using Nextjs, Nestjs, Electron, Docker, Azure,
+           I build Fullstack applications using Nextjs, Nestjs, Electron, Docker, Azure.
           </p>
         </Fade>
         <Fade direction="left"  delay={300}>
