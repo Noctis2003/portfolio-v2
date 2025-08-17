@@ -14,24 +14,24 @@ export function Hero() {
   return (
     <Container id="home">
       <div className="hero-text">
-        <Fade direction="up" triggerOnce>
+        <Fade direction="up" >
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </Fade>
-        <Fade direction="up" triggerOnce delay={200}>
+        <Fade direction="up" delay={200}>
           <h1>Manjot Singh</h1>
         </Fade>
-        <Fade direction="up" triggerOnce delay={400}>
+        <Fade direction="up"  delay={400}>
           <h3>Software Engineer</h3>
         </Fade>
-        <Fade direction="up" triggerOnce delay={600}>
+        <Fade direction="up"  delay={600}>
           <p className="small-resume">To infinity and beyond...</p>
         </Fade>
-        <Fade direction="up" triggerOnce delay={800}>
+        <Fade direction="up"  delay={800}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
         </Fade>
-        <Fade direction="up" triggerOnce delay={1000}>
+        <Fade direction="up"  delay={1000}>
       <div className="social-media"><a
         href="https://www.linkedin.com/in/manjot-singh-1571b325b/"
         target="_blank"
@@ -63,7 +63,7 @@ export function Hero() {
         </Fade>
       </div>
       <div className="hero-image">
-        <Fade direction="right" triggerOnce delay={1000}>
+        <Fade direction="right" delay={1000}>
           <img src={Illustration} alt="Ilustração"
             style={{ transform: "rotate(270deg)" }} />
         </Fade>

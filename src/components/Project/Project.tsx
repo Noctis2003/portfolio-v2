@@ -11,7 +11,7 @@ export function Project() {
       <h2>My Ventures</h2>
       <div className="projects">
 
-          <Fade duration={1500} triggerOnce>
+          <Fade duration={1500} >
 
           <div className="project">
             <header>
@@ -40,7 +40,7 @@ export function Project() {
           </div>
         </Fade>
 
-        <Fade duration={1500} triggerOnce>
+        <Fade duration={1500}>
           <div className="project">
             <header>
               <div className="project-links">
@@ -71,7 +71,7 @@ export function Project() {
         </Fade>
 
     
-    <Fade duration={1500} triggerOnce>
+    <Fade duration={1500} >
           <div className="project">
             <header>
               <div className="project-links">
@@ -101,7 +101,7 @@ export function Project() {
           </div>
         </Fade>
 
-            <Fade duration={1500} triggerOnce>
+            <Fade duration={1500} >
           <div className="project">
             <header>
               <div className="project-links">
